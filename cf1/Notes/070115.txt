@@ -1,0 +1,66 @@
+Colby Holmes
+7/1/15
+
+Class Notes
+
+*HW 2 Review
+*Program 3 Overview
+
+
+----Software Engineering----
+Engineering - 
+The application of science and mathematics by which the properties of metter and the source of energy 
+in nature are made useful to people.
+
+Software Engineering -
+(1) The application of systematic, disciplined, quantifiable approach to the development, operation, and 
+maintenance of software; that is, the application of engineering to software.
+(2) The study of the approaches of (1).
+
+Standard -
+Something established by authority, custom, or general consent as a model or example.
+
+*Socrative Quiz
+
+1962- Mariner1 Rocket 
+Superscript ignored, crashed ($18.5 m)
+
+1983- Near Nuclear Holocaust
+Soviets system picked up US "nuclear missiles" (actually reflection of sun off clouds)
+Launch officer disobeyed orders and didn't fire missiles back. (Luckily.)
+
+1990- AT&T dies
+one switch failed, shut down entire system to shut down
+
+1998- Mars Climate Orbiter
+no metric-imperial conversion, crashed into Mars
+
+2000- Radiation overdose
+radiation therapy machines medically overdose patients, was doubling the doses
+
+2000- Y2K
+Scare that all the machines would crash when the year hit 00. $500 b spent in consulting.
+
+----Software Process----
+Requirement Analysis-
+Complete system specification
+
+Design-
+Software architecture
+
+Code & Unit Test-
+Verify designs 
+
+System Integration Testing-
+Formal Verification
+
+Implementation-
+
+
+Mainenance-
+
+
+
+
+
+

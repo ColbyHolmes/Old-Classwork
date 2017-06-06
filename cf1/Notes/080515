@@ -1,0 +1,63 @@
+Colby Holmes
+7/5/15
+
+Class Notes
+
+----Combinational Practice Problems-----
+(Handout)
+1a.
+ABC ACB BAC BCA CAB CBA
+BCD BDC DBC DCB CBD CDB
+ACD ADC DAC DCA CAD CDA
+ABD ADB BAD BDA DAB DBA
+
+1b.
+(n,m) = n!/[(n-m)!-m!]
+
+2.
+18
+
+3.
+123 124 125 126 127 128 134 135 136 137 137 145 146 147 148 156 157 158 167 168 178
+234 235 236 237 238 245 246 247 248 256 257 258 267 268 278
+345 346 347 348 356 357 358 367 368 378
+456 457 458 467 468 478
+567 568 578
+678
+
+(8, 3)= 8!/(8-3)! = (8*7*6*5*4*3*2*1)/[(5*4*3*2*1)-3*2*1] = (8*7*6)/(3*2*1) = 56
+56
+
+
+----Probability Theory----
+Useful in:
+Estimation of Runtime
+Decisions including uncertainty
+
+Probabality Space-
+Sum is always one
+Ex. 1/6 chance for each side of a dice
+
+The number of possible outcomes is the probability space.
+
+Craps: 36 possible outcomes 8 opportunities to get 7 or 11.
+22% chance of hitting 7 or 11
+
+Continued Probability:
+Ex. Dealing Cards (Removing more than one item without replacing the first)
+
+Product Rule for independent events:
+last 4 digits of a cell phone
+1/10 * 1/10 * 1/10 * 1/10 = .0001 or .01%
+
+Monte-Carlo algorithms:
+Makes a random selection with each iteration
+
+Deterministic algorithm:
+same data + same input = same output
+
+Pigeonhole Principle:
+In Los Angeles at least 2 people have the same number of hairs on there head
+Roughly 15000 hairs on average
+Over 1,000,000 people in LA 
+Sample space much larger than test so the probability of truth is extremely high

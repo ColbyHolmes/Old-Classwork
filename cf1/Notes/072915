@@ -1,0 +1,24 @@
+Colby Holmes
+7/29/15
+
+Class Notes
+
+----Big O----
+Avoid:
+1) Large Nested Loops
+2) Function Calls in Loops
+
+Important rules for calculating runtime
+#1. Ignore Constants
+#2. Ignore lower order terms
+
+Ex.			|#ops
+sum=0;			|1
+for (i=0; i<n; i++)	|1, n+1, n -> 2n+2
+	sum++;		|1
+
+T(n) = (1) + 1(2n+2) + (1)n
+     = 3n + 3
+Ignore constants:
+     = n
+

@@ -1,0 +1,15 @@
+if   [ -f /home/phs0004/public ] ; then
+         echo public is an ordinary file
+
+elif [ -r /home/phs0004/public ] 
+     then
+         echo public a directory readable by this process
+
+elif [ -s /home/phs0004/public ] 
+     then
+         echo public is a non-empty directory 
+else 
+         echo public is a directory that is either empty or 
+         echo cannot be read by this process
+fi
+

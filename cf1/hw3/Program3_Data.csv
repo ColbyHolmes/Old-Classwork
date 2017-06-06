@@ -1,0 +1,22 @@
+add,name,Patrick Burke,
+add,spouse,ID001,Denise Burke
+add,child,ID001,Ryan Burke
+add,child,ID001,Kaitlin Burke
+add,spouse,ID003,Jenny Burke
+add,child,ID003,Korbin Burke
+add,address1,ID001,173 Pegway Drive
+add,name,Patrick Burke,
+add,city,ID001,Anywhere
+add,state,ID001,TX
+add,zip,ID001,12345
+print,ID001,,
+add,address1,ID001,1977 USAFA Lane
+print,all,,
+print,ID001,,
+print,ID002,,
+print,ID003,,
+print,ID004,,
+print,ID005,,
+print,ID006,,
+search,Jenny Burke,,
+search,Corbin Burke,,

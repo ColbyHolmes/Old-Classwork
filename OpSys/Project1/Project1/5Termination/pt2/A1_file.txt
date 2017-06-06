@@ -1,0 +1,14 @@
+total 28
+-rw------- 1 gkd0015 gkd0015     0 Mar 23 11:34 A1_file.txt
+-rw------- 1 gkd0015 gkd0015 23277 Mar 23 11:34 A2_file.txt
+-rwx------ 1 gkd0015 gkd0015  7660 Mar 23 11:34 a.out
+-rw------- 1 gkd0015 gkd0015    87 Mar 22 15:06 B1_file.txt
+-rw-rw---- 1 gkd0015 gkd0015   761 Mar 22 15:11 Project1A.c
+-rw-rw---- 1 gkd0015 gkd0015   562 Mar 22 15:14 Project1B.c
+total 56
+-rw------- 1 gkd0015 gkd0015   363 Mar 23 11:34 A1_file.txt
+-rw------- 1 gkd0015 gkd0015 39661 Mar 23 11:38 A2_file.txt
+-rwx------ 1 gkd0015 gkd0015  7660 Mar 23 11:38 a.out
+-rw------- 1 gkd0015 gkd0015    87 Mar 22 15:06 B1_file.txt
+-rw-rw---- 1 gkd0015 gkd0015   761 Mar 22 15:11 Project1A.c
+-rw-rw---- 1 gkd0015 gkd0015   680 Mar 23 11:38 Project1B.c

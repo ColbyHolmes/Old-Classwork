@@ -1,0 +1,35 @@
+Running basic increment took
+x: 0, y: 0
+x increment finished
+y increment finished
+x: 1000000000, y: 1000000000
+
+real	0m8.103s
+user	0m8.093s
+sys	0m0.000s
+
+
+
+Running forked increment took
+x: 0, y: 0
+y increment finished
+y: 1000000000
+x: 0, y: 0
+x increment finished
+x: 1000000000
+
+real	0m4.070s
+user	0m4.056s
+sys	0m0.004s
+
+
+
+Running threaded increment took
+x: 0, y: 0
+x increment finished
+y increment finished
+x: 1000000000, y: 1000000000
+
+real	0m39.107s
+user	1m17.769s
+sys	0m0.012s

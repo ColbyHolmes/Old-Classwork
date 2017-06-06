@@ -1,0 +1,39 @@
+Colby Holmes
+7/6/16
+
+Class Notes
+
+Trees
+	A (Root, Parent)
+     / | \
+    B  C  D (Leaf, Child) All on same level are siblings.
+   / \	(<<B is an interior)
+  E   F
+     / \
+    G   H
+A is the Root, any trees underneath are subtrees. (BEF is a Subtree.)
+
+Height- Length of longest path between any node and root. 3 in Example.
+
+Conditions for Tree:
+1) Root
+2) Each Node has Unique Parent
+3) Any Node can trace back to Root
+
+Prefix Trees
+	_
+      / \
+     a   r   
+    /   /    r = prefix to d
+   n   /    an = prefix to y and d
+  / \ /
+ y   d
+
+Leftmost Child Right Siblings
+A
+v
+B > C > D
+v
+E > F
+v
+G > H

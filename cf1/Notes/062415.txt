@@ -1,0 +1,55 @@
+Colby Holmes
+6/24/15
+
+Class Notes
+
+----Stacks----
+Actions:
+Push(X) - add a member to the stack
+Pop(X) - remove the top of the stack
+Peek - look at the top member
+Clear - empty the stack
+isFull() - checks available memory space
+
+stacks can be used for simple mathematical equations:
+(3+4)x2
+1) digit -> output 
+2) operator higher than top of stack -> push
+3) '=' or operator lower than top of stack -> pop until higher operator (then push)
+4) end -> pop
+
+resultant output: 3 4 + 2 *
+
+already in postfix
+1) digit -> push
+2) operator - pop 2 digits, perform op, store result on stack
+
+----Queues----
+FIFO - "First In, First Out"
+Example- Store lines
+
+Actions:
+Enqueue - add to end
+Dequeue - Remove from beginning
+isFull - checks capacity
+clear - empty line
+isEmpty - checks capacity
+
+----Longest Common Subsequence----
+L1- abcabba L2- cbabac
+Longest - cbba, baba, caba
+Example uses a matrix comparing them (L1 Horizontally, L2 Verically)
+
+
+----Runtime Memory----
+Organization:
+Code >> Static Data >> Stack >>>> Heap
+Code- Base Code Structure
+Static Data- Data that is unchanging
+Stack- 
+Heap- Dynamically-Allocated Data
+
+If you run out of memory space for heap it looks for extra in the stack space, then,
+if there is not enough it reallocates more space. IF there is no space. It has to
+find a secondary source (HDD) or it cannot run. This will cost precious time.
+

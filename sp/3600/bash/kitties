@@ -1,0 +1,7 @@
+
+echo "our cats (and ghosts of cats) are:" 
+for i in Peter Bunter Hercule Arthur Tommy Tuppence Gus
+do
+  echo $i
+done
+

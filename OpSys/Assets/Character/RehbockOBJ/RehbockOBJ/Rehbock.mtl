@@ -1,0 +1,20 @@
+#Produced by Art of Illusion 2.6.1, Sat Feb 21 19:05:11 CET 2009
+newmtl Fell
+Kd 1 1 1
+map_Kd Rehbock2.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl AugeNase
+Kd 0 0 0
+Ks 0.66 0.66 0.67
+Ka 0 0 0
+illum 2
+Ns 129
+newmtl Geweih
+Kd 1 1 1
+map_Kd Rehbock1.jpg
+Ks 0.68 0.68 0.68
+Ka 0 0 0
+illum 2
+Ns 103

@@ -1,0 +1,36 @@
+Colby Holmes
+Class Notes
+
+6/17/15
+
+----Sorting----
+Permutations of a list to organize it into a generally sorted form
+Iteration- repetition of a computation Ex. Loops 
+
+Selection sort- checks all the items of the array and swaps the ideal with the 
+first spot, then does the same for the second, then third, and so on.
+
+
+----Recursion----
+Recursive functions are functions to call upon themselves.
+One of the main benefits is that the code is cleaner and smaller.
+A major downside to it is that it is fragile code (can be broken easily).
+
+----Induction----
+Base cases- the original argument usually 0 or 1
+Factorial =>> Base: 1!=1 Induction: n! = n x (n-1)!
+
+----Merge Sort----
+Used to sort smaller list then combine and sort the larger list
+
+----Proof By Induction----
+Statement S(n) with variable n
+Prove the base case (usually 0 or 1)
+Then prove it for n+1
+
+5 steps:
+1. Statement S(n) that you need to prove
+2. The base case
+3. The inductive hypothesis
+4. A target to prove
+5. The inductive step (show for all k and, by that, k+1)

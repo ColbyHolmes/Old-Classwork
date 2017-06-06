@@ -1,0 +1,16 @@
+Colby Holmes
+06/29/15
+
+Class Notes
+
+----Review of Stacks and Queues----
+Stacks are F.I.L.O. 
+Stacks are good for one off operations, such as math.
+These operations are good because once the stack data is used it goes away.
+Queues are F.I.F.O. (like a line)
+
+----LCS (cont.)----
+Built from last to first element
+can be programmed into a spreadsheet to determine easily
+
+**Talked about program 2 and 3

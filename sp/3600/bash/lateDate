@@ -1,0 +1,14 @@
+# lateDate --- prints the output of the `date` command for the time
+#              that this bash program is called.  But does it 5 seconds
+#              after the program itself is invoked.
+#
+# Program written by Group 0:
+#     Phil
+#     Peggi
+#     Arthur
+#     Tuppence
+
+
+history=`date`
+sleep 5
+echo $history

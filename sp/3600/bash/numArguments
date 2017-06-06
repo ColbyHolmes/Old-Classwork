@@ -1,0 +1,7 @@
+
+num=0
+for i in $*
+  do
+     num=$(expr $num + 1)
+  done
+echo "There were $num arguments:"

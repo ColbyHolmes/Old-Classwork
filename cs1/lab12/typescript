@@ -1,0 +1,64 @@
+Script started on Thu 13 Nov 2014 10:16:11 AM CST
+]0;cah0448@cse06: ~/lab12cah0448@cse06:~/lab12$ gcc -g -Wall example2.c
+example2.c: In function ‘main’:
+example2.c:11:11: warning: ‘b’ is used uninitialized in this function [-Wuninitialized]
+]0;cah0448@cse06: ~/lab12cah0448@cse06:~/lab12$ gdb a.out
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2.1) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/cah0448/lab12/a.out...done.
+(gdb) break main
+Breakpoint 1 at 0x80483ed: file example2.c, line 8.
+(gdb) run
+Starting program: /home/cah0448/lab12/a.out 
+
+Breakpoint 1, main () at example2.c:8
+8	    setint(&a, 10);
+(gdb) n
+9	    printf("a= %d\n",a);
+(gdb) n
+a= 10
+11	    setint(b, 10);
+(gdb) print a
+$1 = 10
+(gdb) print b
+$2 = (int *) 0x2d8ff4
+(gdb) print *b
+$3 = 1727868
+(gdb) n
+
+Program received signal SIGSEGV, Segmentation fault.
+0x08048451 in setint (ip=0x2d8ff4, i=10) at example2.c:18
+18	    *ip = i;
+(gdb) break setint
+Breakpoint 2 at 0x804844b: file example2.c, line 18.
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/cah0448/lab12/a.out 
+
+Breakpoint 1, main () at example2.c:8
+8	    setint(&a, 10);
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) n
+
+Breakpoint 2, setint (ip=0xbffff6c8, i=10) at example2.c:18
+18	    *ip = i;
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 6733] will be killed.
+
+Quit anyway? (y or n) y
+]0;cah0448@cse06: ~/lab12cah0448@cse06:~/lab12$ exit
+
+Script done on Thu 13 Nov 2014 10:19:47 AM CST

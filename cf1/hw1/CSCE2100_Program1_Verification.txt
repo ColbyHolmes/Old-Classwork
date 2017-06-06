@@ -1,0 +1,12 @@
+CONGRATULATIONS:  I have the singular privilege of
+   proclaiming that the following student has 
+   demonstrated an outstanding mastery of the
+   C++ Programming Language by successfully copying
+   some text, compiling and executing the code, and
+   submitting the results to the CSCE2100 BlackBoard.
+
+
+               Colby Holmes
+
+               Sun Jun 14 12:07:36 2015
+

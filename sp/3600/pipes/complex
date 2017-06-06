@@ -1,0 +1,1 @@
+ps ua | sed 1d | sed -e s/:/./g | sort -r -n --key=10 | head -5

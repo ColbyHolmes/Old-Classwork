@@ -1,0 +1,8 @@
+ ls -lt | wc
+
+echo "let's try again"
+
+ls -lt > /tmp/file1
+wc < /tmp/file1
+/bin/rm /tmp/file1 
+

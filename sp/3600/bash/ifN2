@@ -1,0 +1,9 @@
+if   [ 53 -gt 7 -a 53 -lt 99 ] 
+     
+     then
+         echo Yahoo, 53 actually IS greater than 7, but less than 99
+     else
+         echo Boo, and all this time I thought that 53 is more than 7, but less than 99
+
+fi
+

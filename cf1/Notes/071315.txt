@@ -1,0 +1,58 @@
+Colby Holmes
+7/13/15
+
+Class Notes
+
+----Heaps----
+(AKA Priority Queue)
+Binary Tree
+It's complete except for the last (bottom level)
+Always filled from left
+Parents greater than children
+
+Max heaps
+Root = Max Priority
+
+"Bubble Up" or "Bubble Down" to sort if new node incorrectly placed.
+
+Ex. 4 | 8 | 15 | 3 | 7 | 12 | 16
+
+4 	>>	4	>>	8	>>	8	>>	15
+	      /	      /	      / \	      /  \
+	     8		     4		     4	  15        4    8
+
+>>	15	>>	15	>>>>		16	
+      /  \ 	      /  \ 	      	      /  \
+     4    8        4    8        	     7    15	
+    /             / \		    / \   / \
+   3             3   7		   3   4 8   12
+
+Delete Max- removes root of tree and replaces with the lowest level of the
+tree. In this case, remove 16 and replace with 12. Then reorder. (Bubble 15/12)
+
+Can easily store in an array. 
+Left child = 2n (where n is the position of the parent)
+Right child = 2n+1
+
+EX.
+15 | 3 | 8 | 6 | 1 | 2 | 7 | 9 | 10 | 14 | 13 | 4 | 5 | 12 | 11
+
+                   15                     
+               /        \                 
+            14            12                 
+           /  \          /  \                  
+          9    13       5    11        
+        /  \  /  \     / \   / \          
+       3   6  1  10   2   4  7  8                            
+
+Delete Max:
+
+                   14                     
+               /        \                 
+            13            12                 
+           /  \          /  \                  
+          9    10       5    11        
+        /  \  /  \     / \   /           
+       3   6  1   8   2   4  7   
+
+             	

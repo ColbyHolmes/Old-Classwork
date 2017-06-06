@@ -1,0 +1,42 @@
+Colby Holmes
+7/15/15
+
+Class Notes
+
+----Heaps (retaught)----
+
+Rules:
+1) Binary Tree
+2) Parents priority GREATER THAN or EQUAL TO children **
+3)Complete Binary Tree (Filled at all levels but last. Filled from Left.
+
+
+----Review----
+Heaps are also known as priority queues (despite not being FIFO).
+
+7 | 17 | 7 | 5 | 2 | 8 | 14 | 3 | 17 | 19 | 10 | 4
+
+	7	>>     17	>>	17	>>	17	>>	17                                     
+      /              /             / \           / \           / \
+     17             7             7   7         7   7         7   7
+                                               /             / \
+                                              5             5   2
+                                                               
+	17  	>>	17     >>     17     >>>>         19                                   
+       / \           / \          /  \               /    \           
+      7   7         7   8        7    8             17     14              
+     / \  |        / |  |       / |  | \           /  \    | \             
+    5   2 8       5  2  7      5  2  7  14        7   17   7  8                
+                                                 / |  | \  |   
+                                                3  5  2 10 4    
+                                                               
+**SHOW ALL STEPS ON EXAM**
+
+***Full Review list on B.B.***
+
+10 Multiple Choice Q's
+7 Choose 6 Q's
+7 Choose 5 Q's
+1 Extra Credit Q                                                           
+                                                          
+                                                            

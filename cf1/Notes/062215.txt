@@ -1,0 +1,42 @@
+Colby Holmes
+06/22/15
+
+Class Notes
+
+----Selection Sort----
+Each iteration switches the smallest(s) (if thats how you're sorting) number in the array
+with the current position(p).
+ 5 | 3 | 1 | 2 ---> 1 | 3 | 5 | 2 ---> 1 | 2 | 5 | 3 ---> 1 | 2 | 3 | 5
+(p)	 (s)		  (p)	   (s)            (p) (s)                (p)
+ 
+----Inductive Proofs----
+Present the statement you wish to prove.
+Test the base case (usually n = 0 or 1). 
+Make the reasonable assumption that it works for n=k, because we can't possibly test every number.
+Test the case n= k+1, because if it works for a vague next number (k+1),
+then it should continue to work for all numbers.
+The answer should be the answer of n=k (which is already assumed true) plus the answer of the "+1" bit.
+If the "+1" holds true, then the statement has been proven.
+
+----Lists----
+consists of elements plus a list
+elements separated by commas (1, 5, 2, 3, 2, 1)
+duplicates may not always be allowed based on the type of elements
+Sublist - contiguous  Ex. (5,2)
+Subsequence - same order as the original list  Ex. (1,2,2)
+
+Things you can do with lists:
+Insert (push)
+Search - True/False
+Retrieve - give position
+Delete
+Sort
+Concatenate (combine lists)
+First (check first element)
+Last (check last element)
+Length - give size
+isEmpty - checks if the list has any elements
+
+Arrays- generally fixed sizes
+Link Lists
+

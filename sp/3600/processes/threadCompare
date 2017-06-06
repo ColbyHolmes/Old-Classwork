@@ -1,0 +1,32 @@
+gcc p_matrix_para.c -lpthread
+
+echo 
+echo 
+echo "For 1 thread"
+time ./a.out 1
+
+echo 
+echo 
+echo "For 2 threads"
+time ./a.out 2
+
+echo 
+echo 
+echo "For 3 threads"
+time ./a.out 3
+
+echo 
+echo 
+echo "For 4 threads"
+time ./a.out 4
+
+echo 
+echo 
+echo "For 5 threads"
+time ./a.out 5
+
+echo 
+echo 
+echo "For 6 threads"
+time ./a.out 6
+

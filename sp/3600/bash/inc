@@ -1,0 +1,6 @@
+
+echo "the number you wish incremented: ";read num
+
+inc=$num + 1
+
+echo "$num incremented is $inc" 

@@ -1,0 +1,12 @@
+void addCourse(int i, course* courses);
+void addStudent(int i, student* students);
+void enroll(int sCount, int cCount, student* students, course* courses);
+void addGrades(int sCount, student* students);
+void printGrades(int sCount, student* students);
+void printStudents(int sCount, student* students);
+void compAverage(int sCount, student* students);
+void printAllS(int sCount, student* students);
+void printAllC(int cCount, course* courses);
+void compCourse(int sCount, student* students);
+void storeBook(int sCount, int cCount, student* students, course* courses);
+void loadBook(int* sCount, int* cCount, student* students, course* courses); 

@@ -1,0 +1,30 @@
+struct Room {
+//to indicate special rooms
+  int type;
+
+//ex. 0-no door, 1-normal door, 2-boss door, ect.
+  int t_door, l_door, r_door, b_door;
+
+//*pointer to actual room structure? (pulled from list/array)
+}
+
+/* IN MAIN- initiate 2-d array of rooms
+**Not sure map size yet, 6x6 roughly allows for 36 rooms**
+
+Room map[6][6];
+*/
+
+//function to generate map
+void gen_map(Room (&map)[rows][cols], seed)
+{
+//need to place start, boss, and boss key rooms first
+  
+//then any other special rooms
+
+//fill out the map with "path" rooms
+
+
+  return;
+}
+
+

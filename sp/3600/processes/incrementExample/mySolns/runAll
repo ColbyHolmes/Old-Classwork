@@ -1,0 +1,20 @@
+gcc -o basic increment.c
+
+gcc -o forked forkedIncrement.c
+
+gcc -o threaded threadedIncrement.c -lpthread
+
+echo Running basic increment took
+time ./basic
+
+echo
+echo
+echo
+echo Running forked increment took
+time ./forked
+
+echo
+echo
+echo
+echo Running threaded increment took
+time ./threaded

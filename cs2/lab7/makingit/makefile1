@@ -1,0 +1,6 @@
+sum: main.o sum.o
+	gcc -o sum main.o sum.o
+main.o: sum.o
+	gcc -c main.c
+sum.o: sum.h
+	gcc -c sum.c

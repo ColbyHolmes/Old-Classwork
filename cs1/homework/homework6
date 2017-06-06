@@ -1,0 +1,17 @@
+/*Colby Holmes
+Mark Thompson
+11/23/2014
+Purpose: The purpose of this program is to create a working model of the classic game battleship.
+
+Include Header files*/
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+
+
+int main()
+{
+
+	return 0;
+}

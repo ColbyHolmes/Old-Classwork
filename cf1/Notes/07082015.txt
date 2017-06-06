@@ -1,0 +1,69 @@
+Colby Holmes
+7/8/15
+
+Class Notes
+
+*Program 2 Review
+*Program 3 Updates
+*Can bring FULL printed notes for Exam
+*Notes are also a grade (turned in with Exam)
+
+
+----Different Tree Forms----
+Traversal, Prefix, Postfix, and Infix
+
+		*
+	      / \
+	     +   c
+	    / \
+	   a   b
+
+Traversal: (a+b)*c
+Prefix: *+abc
+Postfix: ab+c*
+Infix: a+b*c
+
+----Binary Tree----
+Each node of a Binary tree has, at most, two children.
+Expression trees are a form of binary trees.
+
+		A
+	      / \
+	     B   D             Not a complete tree.
+           / \	(Complete trees are full on every level)
+          C   E
+	      / \
+	     F   G
+
+Not a valid Binary Search Tree either.
+This would be a correct binary search tree:
+(Everything to the left of a node is less than everythng to the right)
+
+		E
+	      / \
+	     B   G             
+           / \	
+          A   D
+	      / \
+	     C   F
+
+Common commands:
+is_leaf
+left
+right
+
+Adding to the binary tree:
+If root = null -> add Root
+if = root do nothing
+if x > root -> insert to the right
+if x < root -> insert to the left
+(for >, < set next node as "root" and repeat until final settling 
+place reached.)
+
+Deletion:
+1) find x
+2) if leaf, just delete node
+3) if interior node, replace with either largest left element or 
+smallest right element
+
+

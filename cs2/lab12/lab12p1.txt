@@ -1,0 +1,5 @@
+Colby Holmes
+CSCE 1040
+Lab 12 part 1
+
+Adding "virtual" to the beginning of the function allows the subsequent (derived)  classes to apply their own rules to the parent function they are using.
